@@ -1,0 +1,19 @@
+2020-01-23 12:16:38,077  INFO [main] DriverFactory:53 - Launching Firefox browser..
+2020-01-23 12:16:50,974  INFO [main] PreDefinedActions:55 - Test Started : verifyUserLoginWithValidCreds
+2020-01-23 12:16:55,823  INFO [main] LoginTest:22 - After login URL check Success
+2020-01-23 12:16:55,884  INFO [main] LoginTest:25 - Valid User Login Test Case result is: Success
+2020-01-23 12:16:56,179  INFO [main] LoginTest:27 - LogOut function Test Check result is: Success
+2020-01-23 12:16:56,188  INFO [main] PreDefinedActions:63 - Test Finished  : verifyUserLoginWithValidCreds
+2020-01-23 12:16:58,940  INFO [main] PreDefinedActions:67 - Browser is closed
+2020-01-23 12:16:58,943  INFO [main] DriverFactory:53 - Launching Firefox browser..
+2020-01-23 12:17:11,122  INFO [main] PreDefinedActions:55 - Test Started : verifyCreateEmployeeFunction
+2020-01-23 12:17:16,059  INFO [main] EmployeeListTest:26 - Create Url Check Success
+2020-01-23 12:17:19,119  INFO [main] EmployeeListTest:39 - Create User Test Case result is: Success
+2020-01-23 12:17:19,121  INFO [main] PreDefinedActions:63 - Test Finished  : verifyCreateEmployeeFunction
+2020-01-23 12:17:22,456  INFO [main] PreDefinedActions:67 - Browser is closed
+2020-01-23 12:17:22,459  INFO [main] DriverFactory:53 - Launching Firefox browser..
+2020-01-23 12:17:34,787  INFO [main] PreDefinedActions:55 - Test Started : verifyUserLoginWithInValidCreds
+2020-01-23 12:17:39,472  INFO [main] LoginTest:36 - InValid User Login Test Case result is: Success
+2020-01-23 12:17:39,474  INFO [main] PreDefinedActions:63 - Test Finished  : verifyUserLoginWithInValidCreds
+2020-01-23 12:17:41,935  INFO [main] PreDefinedActions:67 - Browser is closed
+2020-01-23 12:17:41,974  INFO [main] PreDefinedActions:73 - Test case execution is completed

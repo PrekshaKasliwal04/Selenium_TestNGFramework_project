@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cafe TownSend Suite" duration-ms="66585" started-at="2020-01-23T17:39:53Z" finished-at="2020-01-23T17:40:59Z">
+    <groups>
+      <group name="REGRESSION">
+        <method signature="EmployeeListTest.verifyCreateEmployeeFunction()[pri:1, instance:com.testscripts.cafeTownSend.EmployeeListTest@18d30e7]" name="verifyCreateEmployeeFunction" class="com.testscripts.cafeTownSend.EmployeeListTest"/>
+        <method signature="LoginTest.verifyUserLoginWithInValidCreds()[pri:2, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="verifyUserLoginWithInValidCreds" class="com.testscripts.cafeTownSend.LoginTest"/>
+        <method signature="LoginTest.verifyUserLoginWithValidCreds()[pri:1, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="verifyUserLoginWithValidCreds" class="com.testscripts.cafeTownSend.LoginTest"/>
+      </group> <!-- REGRESSION -->
+    </groups>
+    <test name="Cafe TOWNSEND application test cases" duration-ms="66585" started-at="2020-01-23T17:39:53Z" finished-at="2020-01-23T17:40:59Z">
+      <class name="com.testscripts.cafeTownSend.LoginTest">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="beforeSuite" is-config="true" duration-ms="63" started-at="2020-01-23T17:39:52Z" finished-at="2020-01-23T17:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65e05005]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="beforeMethod" is-config="true" duration-ms="13678" started-at="2020-01-23T17:39:53Z" finished-at="2020-01-23T17:40:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.testscripts.cafeTownSend.LoginTest.verifyUserLoginWithValidCreds() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLoginWithValidCreds status=SUCCESS method=LoginTest.verifyUserLoginWithValidCreds()[pri:1, instance:com.testscripts.cafeTownSend.LoginTest@7493d937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserLoginWithValidCreds()[pri:1, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="verifyUserLoginWithValidCreds" duration-ms="5482" started-at="2020-01-23T17:40:06Z" description="Verify user should be able to login with valid credentials" finished-at="2020-01-23T17:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidCreds -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="aftermethod" is-config="true" duration-ms="3257" started-at="2020-01-23T17:40:12Z" finished-at="2020-01-23T17:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLoginWithValidCreds status=SUCCESS method=LoginTest.verifyUserLoginWithValidCreds()[pri:1, instance:com.testscripts.cafeTownSend.LoginTest@7493d937] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public final void com.testscripts.cafeTownSend.LoginTest.verifyUserLoginWithValidCreds() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="beforeMethod" is-config="true" duration-ms="11737" started-at="2020-01-23T17:40:40Z" finished-at="2020-01-23T17:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.testscripts.cafeTownSend.LoginTest.verifyUserLoginWithInValidCreds() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLoginWithInValidCreds status=SUCCESS method=LoginTest.verifyUserLoginWithInValidCreds()[pri:2, instance:com.testscripts.cafeTownSend.LoginTest@7493d937] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserLoginWithInValidCreds()[pri:2, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="verifyUserLoginWithInValidCreds" duration-ms="4873" started-at="2020-01-23T17:40:51Z" description="Verify user should not be able to login with Invalid login credentials" finished-at="2020-01-23T17:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithInValidCreds -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="aftermethod" is-config="true" duration-ms="2965" started-at="2020-01-23T17:40:56Z" finished-at="2020-01-23T17:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLoginWithInValidCreds status=SUCCESS method=LoginTest.verifyUserLoginWithInValidCreds()[pri:2, instance:com.testscripts.cafeTownSend.LoginTest@7493d937] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public final void com.testscripts.cafeTownSend.LoginTest.verifyUserLoginWithInValidCreds() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:com.testscripts.cafeTownSend.LoginTest@7493d937]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-01-23T17:40:59Z" finished-at="2020-01-23T17:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65e05005]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testscripts.cafeTownSend.LoginTest -->
+      <class name="com.testscripts.cafeTownSend.EmployeeListTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.testscripts.cafeTownSend.EmployeeListTest@18d30e7]" name="beforeMethod" is-config="true" duration-ms="12446" started-at="2020-01-23T17:40:15Z" finished-at="2020-01-23T17:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public final void com.testscripts.cafeTownSend.EmployeeListTest.verifyCreateEmployeeFunction() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateEmployeeFunction status=SUCCESS method=EmployeeListTest.verifyCreateEmployeeFunction()[pri:1, instance:com.testscripts.cafeTownSend.EmployeeListTest@18d30e7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyCreateEmployeeFunction()[pri:1, instance:com.testscripts.cafeTownSend.EmployeeListTest@18d30e7]" name="verifyCreateEmployeeFunction" duration-ms="7998" started-at="2020-01-23T17:40:27Z" description="Verify that User should be able to Create new Employee record" finished-at="2020-01-23T17:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateEmployeeFunction -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.testscripts.cafeTownSend.EmployeeListTest@18d30e7]" name="aftermethod" is-config="true" duration-ms="4123" started-at="2020-01-23T17:40:35Z" finished-at="2020-01-23T17:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateEmployeeFunction status=SUCCESS method=EmployeeListTest.verifyCreateEmployeeFunction()[pri:1, instance:com.testscripts.cafeTownSend.EmployeeListTest@18d30e7] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public final void com.testscripts.cafeTownSend.EmployeeListTest.verifyCreateEmployeeFunction() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.testscripts.cafeTownSend.EmployeeListTest -->
+    </test> <!-- Cafe TOWNSEND application test cases -->
+  </suite> <!-- Cafe TownSend Suite -->
+</testng-results>

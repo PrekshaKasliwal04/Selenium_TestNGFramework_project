@@ -1,4 +1,3 @@
-#Test Assignment for Mobiquity Inc.
 This automation framework is for Cafe TOWNSEND test application
 
 Project Introduction:
